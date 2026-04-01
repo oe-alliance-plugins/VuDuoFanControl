@@ -1,0 +1,18 @@
+{
+  "branch": "main",
+  "depends_recipe": "",
+  "description_control": "Fancontrol Settings inStandby Mode",
+  "description_recipe": "Fancontrol Settings inStandby Mode",
+  "history_source_dir": "VuDuoFanControl",
+  "internal_package_name": "enigma2-plugin-systemplugins-fancontrol",
+  "module_dir_name": "VuDuoFanControl",
+  "output_subdir": "VuDuoFanControl",
+  "package_name": "enigma2-plugin-systemplugins-fancontrol-vu-duo-fan-control",
+  "plugin_src_rel": "VuDuoFanControl",
+  "python_package": "VuDuoFanControl",
+  "rdepends_recipe": "",
+  "replaces": "",
+  "repo_name": "VuDuoFanControl",
+  "rrecommends": "",
+  "rreplaces": ""
+}
