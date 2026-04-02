@@ -51,7 +51,7 @@ class FanSetupConfiguration(ConfigListScreen, Screen):
 
 		self.list = []
 		ConfigListScreen.__init__(self, self.list, session=self.session)
-#		self.getFaninfo()
+# self.getFaninfo()
 		self.createSetup()
 
 		self["key_red"] = StaticText(_("Close"))
