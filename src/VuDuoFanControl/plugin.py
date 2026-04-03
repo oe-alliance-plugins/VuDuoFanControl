@@ -1,15 +1,13 @@
-from __future__ import print_function
 # for localized messages
 from . import _
 
 from Screens.Screen import Screen
 from Screens.MessageBox import MessageBox
 from Plugins.Plugin import PluginDescriptor
-from Components.ActionMap import ActionMap, NumberActionMap
-from Components.config import config
-from Components.config import config, getConfigListEntry, ConfigInteger, ConfigSubsection, ConfigSelection
-from Components.ConfigList import ConfigListScreen
 from Components.ActionMap import ActionMap
+from Components.config import config
+from Components.config import getConfigListEntry, ConfigInteger, ConfigSubsection, ConfigSelection
+from Components.ConfigList import ConfigListScreen
 from Components.Sources.StaticText import StaticText
 
 
@@ -87,7 +85,7 @@ class FanSetupConfiguration(ConfigListScreen, Screen):
 				config.plugins.fansetups.fanofftime.value = time
 			else:
 				config.plugins.fansetups.fanofftime.value = 1
-		except:
+		except Exception:
 			print('Error read proc of fan')
 
 	def createSetup(self):
@@ -144,7 +142,7 @@ class FanSetupConfiguration(ConfigListScreen, Screen):
 					open('/proc/stb/system/use_fan_timer', 'w').write('1')
 					open('/proc/stb/system/fan_on_time', 'w').write('%s' % config.plugins.fansetups.fanontime.value)
 					open('/proc/stb/system/fan_off_time', 'w').write('%s' % config.plugins.fansetups.fanofftime.value)
-		except:
+		except Exception:
 			print('Error write proc of fan')
 
 
@@ -170,7 +168,7 @@ def setfansetup(reason, **kwargs):
 				open('/proc/stb/system/use_fan_timer', 'w').write('1')
 				open('/proc/stb/system/fan_on_time', 'w').write('%s' % config.plugins.fansetups.fanontime.value)
 				open('/proc/stb/system/fan_off_time', 'w').write('%s' % config.plugins.fansetups.fanofftime.value)
-	except:
+	except Exception:
 		print('Error to set fan control')
 
 
