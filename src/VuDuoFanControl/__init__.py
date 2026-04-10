@@ -6,7 +6,7 @@ PluginLanguageDomain = "FanControl"
 PluginLanguagePath = "SystemPlugins/FanControl/locale"
 
 
-def localeInit():
+def locale_init():
 	bindtextdomain(PluginLanguageDomain, resolveFilename(SCOPE_PLUGINS, PluginLanguagePath))
 
 
@@ -18,7 +18,7 @@ def _(txt):
 		return gettext(txt)
 
 
-localeInit()
-language.addCallback(localeInit)
+locale_init()
+language.addCallback(locale_init)
 
 __version__ = "1.1"

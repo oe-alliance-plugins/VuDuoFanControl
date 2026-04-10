@@ -131,7 +131,7 @@ def openconfig(session, **kwargs):
 	session.open(FanSetupConfiguration)
 
 
-def selSetup(menuid, **kwargs):
+def sel_setup(menuid, **kwargs):
 	return [(_(PluginLanguageDomain), openconfig, "fansetup_config", 70)] if menuid == "system" else []
 
 
@@ -155,5 +155,5 @@ def Plugins(**kwargs):
 	from os import path
 	if not path.exists("/usr/lib/enigma2/python/Plugins/Extensions/PluginLanguageDomain2/plugin.pyo"):
 		return [PluginDescriptor(name=_(PluginLanguageDomain), description="check Fan Control settings", where=PluginDescriptor.WHERE_AUTOSTART, needsRestart=True, fnc=setfansetup),
-				PluginDescriptor(name=_(PluginLanguageDomain), description=_(PluginLanguageDomain), where=PluginDescriptor.WHERE_MENU, needsRestart=True, fnc=selSetup)]
+				PluginDescriptor(name=_(PluginLanguageDomain), description=_(PluginLanguageDomain), where=PluginDescriptor.WHERE_MENU, needsRestart=True, fnc=sel_setup)]
 	return []
