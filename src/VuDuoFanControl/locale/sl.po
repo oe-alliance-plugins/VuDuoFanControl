@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ENIGMA 2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-30 19:14+0200\n"
+"POT-Creation-Date: 2026-04-10 13:29+0200\n"
 "PO-Revision-Date: 2016-05-07 14:19+0200\n"
 "Last-Translator: neoatomic <neoatomic@users.noreply.github.com>\n"
 "Language-Team: OldSkul from www.linux-sprejemniki.info\n"
@@ -14,49 +14,56 @@ msgstr ""
 "X-Generator: Poedit 1.8.7\n"
 
 #
+#: ../plugin.py:53
 msgid "Close"
 msgstr "Izhod"
 
 #
-msgid "Fan Control"
-msgstr "Nadzor ventilatorja"
-
-#
+#: ../plugin.py:77
 msgid "Fan basic action"
 msgstr "Vklop nastavitev ventilatorja?"
 
 #
+#: ../plugin.py:80
 msgid "Fan off duration time"
 msgstr "Časovno obdobje nedelovanja ventilatorja"
 
 #
+#: ../plugin.py:79
 msgid "Fan on duration time"
 msgstr "Časovno obdobje delovanja ventilatorja"
 
 #
+#: ../plugin.py:109
 msgid "Really close without saving settings?"
 msgstr "Želite zapreti ne da bi shranili nastavitve?"
 
 #
+#: ../plugin.py:54
 msgid "Save"
 msgstr "Potrditev"
 
 #
+#: ../plugin.py:78
 msgid "Use Fan timer"
 msgstr "Uporaba časovnika za ventilator"
 
 #
+#: ../plugin.py:13
 msgid "no"
 msgstr "Ne"
 
 #
+#: ../plugin.py:12
 msgid "off"
 msgstr "izklopi"
 
 #
+#: ../plugin.py:12
 msgid "on"
 msgstr "vključi"
 
 #
+#: ../plugin.py:13
 msgid "yes"
 msgstr "Da"

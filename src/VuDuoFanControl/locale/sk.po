@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-30 19:14+0200\n"
+"POT-Creation-Date: 2026-04-10 13:29+0200\n"
 "PO-Revision-Date: 2016-05-07 14:19+0200\n"
 "Last-Translator: neoatomic <neoatomic@users.noreply.github.com>\n"
 "Language-Team: none\n"
@@ -15,38 +15,46 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Poedit 1.8.7\n"
 
+#: ../plugin.py:53
 msgid "Close"
 msgstr "Zatvoriť"
 
-msgid "Fan Control"
-msgstr ""
-
+#: ../plugin.py:77
 msgid "Fan basic action"
 msgstr ""
 
+#: ../plugin.py:80
 msgid "Fan off duration time"
 msgstr ""
 
+#: ../plugin.py:79
 msgid "Fan on duration time"
 msgstr ""
 
+#: ../plugin.py:109
 msgid "Really close without saving settings?"
 msgstr "Naozaj zatvoriť bez uloženia nastavení?"
 
+#: ../plugin.py:54
 msgid "Save"
 msgstr "Uložiť"
 
+#: ../plugin.py:78
 msgid "Use Fan timer"
 msgstr ""
 
+#: ../plugin.py:13
 msgid "no"
 msgstr "nie"
 
+#: ../plugin.py:12
 msgid "off"
 msgstr "vyp."
 
+#: ../plugin.py:12
 msgid "on"
 msgstr "zap."
 
+#: ../plugin.py:13
 msgid "yes"
 msgstr "áno"

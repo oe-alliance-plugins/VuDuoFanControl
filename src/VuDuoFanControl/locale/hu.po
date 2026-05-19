@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-30 19:14+0200\n"
+"POT-Creation-Date: 2026-04-10 13:29+0200\n"
 "PO-Revision-Date: 2016-05-07 14:18+0200\n"
 "Last-Translator: neoatomic <neoatomic@users.noreply.github.com>\n"
 "Language-Team: Mediavox, robertut <info@mediavox.hu, robertut@yahoo.com>\n"
@@ -19,44 +19,52 @@ msgstr ""
 "X-Generator: Poedit 1.8.7\n"
 
 #
+#: ../plugin.py:53
 msgid "Close"
 msgstr "Bezárás"
 
-msgid "Fan Control"
-msgstr ""
-
+#: ../plugin.py:77
 msgid "Fan basic action"
 msgstr ""
 
+#: ../plugin.py:80
 msgid "Fan off duration time"
 msgstr ""
 
+#: ../plugin.py:79
 msgid "Fan on duration time"
 msgstr ""
 
 #
+#: ../plugin.py:109
 msgid "Really close without saving settings?"
 msgstr "Bezárás mentés nélkül?"
 
 #
+#: ../plugin.py:54
 msgid "Save"
 msgstr "Mentés"
 
+#: ../plugin.py:78
 msgid "Use Fan timer"
 msgstr ""
 
 #
+#: ../plugin.py:13
 msgid "no"
 msgstr "nem"
 
 #
+#: ../plugin.py:12
 msgid "off"
 msgstr "ki"
 
 #
+#: ../plugin.py:12
 msgid "on"
 msgstr "be"
 
 #
+#: ../plugin.py:13
 msgid "yes"
 msgstr "igen"
